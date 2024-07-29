@@ -1,0 +1,275 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, #0a0a0a, #3a4452);
+}
+
+.calculator {
+    border: 1px solid #717377;
+    padding: 20px;
+    border-radius: 16px;
+    background: transparent;
+    box-shadow: 0 3px 15px rgba(113, 115, 119, 0.5);
+}
+
+#input {
+    width: 320px;
+    border: none;
+    outline: none;
+    padding: 24px;
+    margin: 10px;
+    background: transparent;
+    box-shadow: 0 3px 15px rgba(84, 84, 84, 0.1);
+    font-size: 40px;
+    text-align: right;
+    cursor: pointer;
+}
+
+button {
+    border: none;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 50%;
+    background: transparent;
+    color: #fff;
+    font-size: 20px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+
+}
+
+
+.equal-btn {
+    background: #fb7c14;
+}
+
+.operator {
+    color: #6dee0a;
+}
+
+.danger {
+    color: #f00;
+    background: #e9e9e9;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.3);
+
+
+} */
+
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, #0a0a0a, #3a4452);
+}
+
+.calculator {
+    border: 1px solid #717377;
+    padding: 1.5rem; 
+    border-radius: 0.75rem; 
+    background: transparent;
+    box-shadow: 0 0.1rem 0.5rem rgba(113, 115, 119, 0.5); 
+    width: 90vw; 
+    max-width: 400px; 
+}
+
+#input {
+    width: 100%; 
+    border: none;
+    outline: none;
+    padding: 1rem; 
+    margin: 0.5rem 0; 
+    background: transparent;
+    box-shadow: 0 0.1rem 0.5rem rgba(84, 84, 84, 0.1); 
+    font-size: 2rem; 
+    text-align: right;
+    cursor: pointer;
+    color: #fff; 
+}
+
+button {
+    border: none;
+    width: 6vw; 
+    height: 6vw; 
+    max-width: 50px; 
+    max-height: 50px; 
+    margin: 0.5rem; 
+    border-radius: 50%;
+    background: transparent;
+    color: #fff;
+    font-size: 1rem;
+    box-shadow: -0.25rem -0.25rem 0.5rem rgba(255, 255, 255, 0.1); 
+    cursor: pointer;
+}
+
+.equal-btn {
+    background: #fb7c14;
+}
+
+.operator {
+    color: #6dee0a;
+}
+
+.danger {
+    color: #f00;
+    background: #e9e9e9;
+    box-shadow: -0.25rem -0.25rem 0.5rem rgba(255, 255, 255, 0.3); 
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+#body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  color: #fff;
+  background: linear-gradient(213deg, #0a0a0a, #3a4452);
+}
+
+#body h1 {
+  margin: 1rem;
+} 
+
+.calculator {
+  border: 1px solid #717377;
+
+  padding: 1.5rem 0.2rem 1.5rem 0.2rem;
+  border-radius: 0.75rem;
+  background: transparent;
+  box-shadow: 0 0.1rem 0.5rem rgba(113, 115, 119, 0.5);
+  width: 90vw;
+  max-width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#input {
+  width: 75%;
+  border: none;
+  outline: none;
+  padding: 1rem;
+  margin: 0.5rem 0;
+  background: transparent;
+  box-shadow: 0 0.1rem 0.5rem rgba(84, 84, 84, 0.7);
+  font-size: 1.6rem;
+  text-align: right;
+  cursor: pointer;
+  color: #fff;
+  border-radius: 1rem;
+}
+
+button {
+  border: none;
+  width: 8vw;
+  height: 8vw;
+  max-width: 50px;
+  max-height: 50px;
+  margin: 0.7rem;
+  border-radius: 50%;
+  background: transparent;
+  color: #fff;
+  font-size: 1em;
+  box-shadow: -0.25em -0.25em 0.5rem rgba(255, 255, 255, 0.1);
+  cursor: pointer;
+}
+
+.equal-btn {
+  background: #fb7c14;
+}
+
+.operator {
+  color: #6dee0a;
+}
+
+.danger {
+  color: #f00;
+  background: #e9e9e9;
+  box-shadow: -0.25em -0.25em 0.5rem rgba(255, 525, 255, 0.3);
+}
+
+/* Media Queries for Responsive Design */
+
+/* Portrait Mode */
+@media (orientation: portrait) {
+  .calculator {
+    width: 95vw;
+    max-width: 350px;
+  }
+
+  #input {
+    font-size: 1.5rem;
+  }
+
+  button {
+    width: 9vw;
+    height: 9vw;
+  }
+}
+
+/* Landscape Mode */
+@media (orientation: landscape) {
+  .calculator {
+    width: 90vw;
+    max-width: 400px;
+  }
+
+  #input {
+    font-size: 1.6rem;
+  }
+
+  button {
+    width: 8vw;
+    height: 8vw;
+  }
+}
+
+/* Extra Small Screens */
+@media (max-width: 320px) {
+  .calculator {
+    width: 100vw;
+    max-width: 280px;
+  }
+
+  #input {
+    font-size: 1.2rem;
+  }
+
+  button {
+    width: 10vw;
+    height: 7vw;
+  }
+}
