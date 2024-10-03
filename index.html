@@ -14,115 +14,42 @@
      <h1>A Very Simple and Begining Staged Calculator :)</h1>
 
     <div class="calculator">
-        <input id="input" type="text" readonly>
+        <input id="input" type="text" readonly placeholder="0">
 
 
         <div>
-            <button class="operator" onclick="
-                
-            currentDisplay = '';
-            document.querySelector('#input').value = currentDisplay;
-            ">AC</button>
-            <button class="operator" onclick="currentDisplay = currentDisplay.slice(0, -1);
-            document.querySelector('#input').value = currentDisplay;">DEL</button>
-            <button class="operator danger" >XX</button>
-            <button class="operator" onclick="
-                
-            currentDisplay = currentDisplay + '/';
-            document.querySelector('#input').value = currentDisplay;
-            ">/</button>
+            <button class="operator" >AC</button>
+            <button class="operator" >DEL</button>
+            <button class="operator " >%</button>
+            <button class="operator" >/</button>
         </div>
 
         <div>
-            <button onclick="
-                
-            currentDisplay = currentDisplay + '7';
-            document.querySelector('#input').value = currentDisplay;
-            ">7</button>
-            <button onclick="
-                
-            currentDisplay = currentDisplay + '8';
-            document.querySelector('#input').value = currentDisplay;
-            ">8</button>
-            <button onclick="
-                
-            currentDisplay = currentDisplay + '9';
-            document.querySelector('#input').value = currentDisplay;
-            ">9</button>
-            <button class="operator" onclick="
-                
-            currentDisplay = currentDisplay + '*';
-            document.querySelector('#input').value = currentDisplay;
-            ">*</button>
+            <button >7</button>
+            <button >8</button>
+            <button >9</button>
+            <button class="operator" >*</button>
         </div>
 
         <div>
-            <button onclick="
-                
-            currentDisplay = currentDisplay + '4';
-            document.querySelector('#input').value = currentDisplay;
-            ">4</button>
-            <button onclick="
-                
-            currentDisplay = currentDisplay + '5';
-            document.querySelector('#input').value = currentDisplay;
-            ">5</button>
-            <button onclick="
-                
-            currentDisplay = currentDisplay + '6';
-            document.querySelector('#input').value = currentDisplay;
-            ">6</button>
-            <button class="operator" onclick="
-                
-            currentDisplay = currentDisplay + '-';
-            document.querySelector('#input').value = currentDisplay;
-            ">-</button>
+            <button >4</button>
+            <button >5</button>
+            <button >6</button>
+            <button class="operator" >-</button>
         </div>
 
         <div>
-            <button onclick="
-                
-                currentDisplay = currentDisplay + '1';
-                document.querySelector('#input').value = currentDisplay;
-                ">1</button>
-            <button onclick="
-                
-            currentDisplay = currentDisplay + '2';
-            document.querySelector('#input').value = currentDisplay;
-            ">2</button>
-            <button onclick="
-                
-            currentDisplay = currentDisplay + '3';
-            document.querySelector('#input').value = currentDisplay;
-            ">3</button>
-            <button class="operator" onclick="
-                
-            currentDisplay = currentDisplay + '+';
-            document.querySelector('#input').value = currentDisplay;
-            ">+</button>
+            <button >1</button>
+            <button >2</button>
+            <button >3</button>
+            <button class="operator" >+</button>
         </div>
 
         <div>
-            <button onclick="
-                
-            currentDisplay = currentDisplay + '00';
-            document.querySelector('#input').value = currentDisplay;
-            ">00</button>
-            <button onclick="
-                
-            currentDisplay = currentDisplay + '0';
-            document.querySelector('#input').value = currentDisplay;
-            ">0</button>
-            <button onclick="
-                
-            currentDisplay = currentDisplay + '.';
-            document.querySelector('#input').value = currentDisplay;
-            ">.</button>
-            <button class="equal-btn" onclick="
-                
-            currentDisplay = eval(currentDisplay);
-            document.querySelector('#input').value = currentDisplay;
-            ">=</button>
+            <button >00</button>
+            <button >0</button>
+            <button >.</button>
+            <button class="equal-btn" >=</button>
         </div>
 
     
@@ -130,11 +57,7 @@
 
 </div>
 
-    <script>
-
-        let currentDisplay = "";
-        document.querySelector("#input").value = currentDisplay;
-    </script>
+   <script src="script.js"></script>
 </body>
 
 </html>
